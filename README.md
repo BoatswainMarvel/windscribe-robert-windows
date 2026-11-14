@@ -107,6 +107,8 @@ Windscribe — товарный знак Windscribe Limited. Страница о
 
 [https://aivoraprograms.com](https://aivoraprograms.com/) · hello@aivora.app
 
+#windows11 #windows10 #vpn #windscribe #aivora
+
 ---
 
 *Windscribe vpn · Windscribe vpn free · Windscribe vpn windows · paid Windscribe vpn free through launcher · R.O.B.E.R.T. · Aivora Programs · https://aivoraprograms.com/programs/windscribe-pro/*
