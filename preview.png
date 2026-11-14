@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>These are not the droids you are looking for - Windscribe</title>
+    <meta name="description" content="Windscribe is a desktop application and browser extension that work together to block ads and trackers, restore access to blocked content and help you safeguard your privacy online.">
+    <meta name="keywords" content="windscribe, vpn, free vpn, virtual private network, privacy, security, tunnel, anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://static.windscribe.com/css/normalize.css?01-10-17">
+    <link rel="stylesheet" href="https://static.windscribe.com/v2/css/upgrade.css?2025-12-15" />
+    <link rel="stylesheet" href="https://static.windscribe.com/v2/css/generator.css?2025-12-15" />
+    <link rel="stylesheet" href="https://static.windscribe.com/v2/css/main.css?2025-12-15" />
+    <link rel="stylesheet" href="https://static.windscribe.com/v2/css/language.css?2025-12-15" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="/favicon-256x256.png">
+
+    <script src="https://static.windscribe.com/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://static.windscribe.com/js/vendor/jquery-1.11.3.min.js"></script>
+    <script defer src="https://static.windscribe.com/js/vendor/clipboard.js"></script>
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@windscribe" />
+    <meta name="twitter:creator" content="@yegor" />
+    <meta name="twitter:label1" content="Platform" />
+    <meta name="twitter:data1" content="Privacy Solution" />
+    <meta name="twitter:label2" content="Cool Factor" />
+    <meta name="twitter:data2" content="Alpha One" />
+    <meta property="twitter:image" content="https://windscribe.com/og_image.png" />
+
+    <meta property="og:title" content="These are not the droids you are looking for - Windscribe" />
+    <meta property="og:site_name" content="Windscribe" />
+    <meta property="og:url" content="https://windscribe.com/" />
+    <meta property="og:description" content="Windscribe is a set of privacy tools that are built for humans, by humans. Connect to VPN servers in over 130 locations (some of them are free), block malware and ads, and stay more private online." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://windscribe.com/og_image.png" />
+
+    
+    <link rel="alternate" hreflang="en" href="https://windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="zh" href="https://chn.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="de" href="https://deu.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="ar" href="https://egy.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="es" href="https://esp.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="fr" href="https://fra.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="hi" href="https://ind.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="nl" href="https://nld.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="pt" href="https://prt.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="ru" href="https://rus.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="tr" href="https://tur.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="jv" href="https://idn.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="vi" href="https://vnm.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="ko" href="https://kor.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="it" href="https://ita.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="sv" href="https://swe.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="th" href="https://tha.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+    <link rel="alternate" hreflang="ja" href="https://jpn.windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+
+    <link rel="canonical" href="https://windscribe.com/img/logo/windscribe-logo-desktop-light.png" />
+        </head>
+<body>
+<!-- SITE CONTENT -->
+<div class="wrapper " id="body_wrap">
+    <script>
+(function() {
+    if (window.openWindscribeGarry) {
+        return;
+    }
+
+    var READINESS_POLL_INTERVAL_MS = 150;
+    var READINESS_TIMEOUT_MS = 10000;
+
+    function openGarryWidget() {
+        window.setTimeout(function() {
+            if (window.GarryWidget && typeof window.GarryWidget.open === 'function') {
+                window.GarryWidget.open();
+            }
+        }, 0);
+    }
+
+    window.openWindscribeGarry = function() {
+        var startedAt;
+        var intervalId;
+
+        if (window.GarryWidget && typeof window.GarryWidget.open === 'function') {
+            openGarryWidget();
+            return false;
+        }
+
+        startedAt = Date.now();
+        intervalId = window.setInterval(function() {
+            if (window.GarryWidget && typeof window.GarryWidget.open === 'function') {
+                window.clearInterval(intervalId);
+                openGarryWidget();
+                return;
+            }
+
+            if (Date.now() - startedAt >= READINESS_TIMEOUT_MS) {
+                window.clearInterval(intervalId);
+            }
+        }, READINESS_POLL_INTERVAL_MS);
+
+        return false;
+    };
+})();
+</script>
+<div class="header" id="main_header">
+    <a href="/" id="header_logo" title="Windscribe Logo"></a>
+    <div class="header-menu">
+        <ul>
+                            <li><a href="/features" class="">Features</a></li>
+                <li><a href="/upgrade" class="">Pricing</a></li>
+                <li><a href="/support" class="">Support</a></li>
+                <li><a href="/download" class="green-btn">Download</a></li>
+                <li>
+                    <a href="/login" class="nav-menu-btn white-btn non-trans ">Log In</a>
+                    <ul class="sub-menu mobile-hidden small">
+                        <li><a href="/signup">Sign Up</a></li>
+                    </ul>
+                </li>
+                <li class="desktop-hidden"><a href="/signup">Sign Up</a></li>
+            
+
+            <li class="language-selector">
+                <span class="mobile-selector">Language</span>
+                <a href="#" class="language-selector-toggle">
+                    <i class="cflag ENG"></i>
+                </a>
+                <ul class="language-dropdown-menu">
+                    <li>
+                        <a href="https://egy.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag EGY"></i>
+                            <span>عرب</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://chn.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag CHN"></i>
+                            <span>中文</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://nld.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag NLD"></i>
+                            <span>Nederlands</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag ENG"></i>
+                            <span>English</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://fra.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag FRA"></i>
+                            <span>Français</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://deu.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag DEU"></i>
+                            <span>Deutsche</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ind.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag IND"></i>
+                            <span>हिंदी</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ita.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag ITA"></i>
+                            <span>Italiano</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://prt.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag PRT"></i>
+                            <span>Português</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rus.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag RUS"></i>
+                            <span>Русский</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://swe.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag SWE"></i>
+                            <span>Svenska</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://esp.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag ESP"></i>
+                            <span>Español</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tur.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag TUR"></i>
+                            <span>Türk</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://jpn.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag JPN"></i>
+                            <span>日本語</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://idn.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag IDN"></i>
+                            <span>Indonesia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://kor.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag KOR"></i>
+                            <span>한국어</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vnm.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag VNM"></i>
+                            <span>Tiếng Việt</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tha.windscribe.com/img/logo/windscribe-logo-desktop-light.png">
+                            <i class="cflag THA"></i>
+                            <span>ไทย</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div><!--header-menu-->
+</div><!--header-->        <div class="blue-bg blue-top">
+    <h1>Error</h1>
+    <!--  Background effects  -->
+    <div class="stars"></div>
+    <div class="twinkling-blue"></div>
+</div>
+<div class="white-section message_page failure">
+    <h1>These are not the droids you are looking for</h1>
+    <div class="message-box">
+        <p><img src="/v2/img/not_the_droids.jpg"><br> Check your URL or <a href="/" style="color:#3968BC;">click here to go to our homepage</a></p>
+            </div>
+</div>
+    <!-- Class file imgcontroller.php does not exist. -->
+    <div id="push" class=""></div>
+</div><!--wrapper-->
+<div class="footer " id="footer">
+            <div id="footer-links">
+        <div class="footer-link-cont footer-left">
+            <h3>Windscribe</h3>
+            <ul>
+                <li><a href="/download">Download</a></li>
+                <li><a href="/upgrade">Pricing</a></li>
+                <li><a href="/knowledge-base">Get Support</a></li>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/referafriend">Refer a Friend</a></li>
+                <li><a href="/ethics">Ethics & Philosophy</a></li>
+                <li><a href="/changelog">Changelog</a></li>
+                <li><a href="https://swag.windscribe.com" target="_blank" rel="noopener noreferrer">Buy Merch</a></li>
+                <li><a href="/status">Status</a></li>
+                <li><a href="https://github.com/windscribe" target="_blank" rel="noopener noreferrer">Open Source</a></li>
+                <li><a href="https://controld.com/free-dns?cid=ws-footer" title="Control D - Windscribe DNS">Free DNS</a></li>
+            </ul>
+        </div>
+        <div class="footer-link-cont footer-secondary">
+            <h3>Apps</h3>
+            <ul>
+                <li><a href="/features/windows">VPN for Windows</a></li>
+                <li><a href="/features/macos">VPN for Mac</a></li>
+                <li><a href="/features/linux">VPN for Linux</a></li>
+                <li><a href="/features/ios">VPN for iPhone</a></li>
+                <li><a href="/features/android">VPN for Android</a></li>
+                <li><a href="/features/chrome">VPN for Chrome</a></li>
+                <li><a href="/features/firefox">VPN for Firefox</a></li>
+                <li><a href="/features/edge">VPN for MS Edge</a></li>
+                <li><a href="https://www.amazon.com/Windscribe-VPN/dp/B076ZYV6HQ/" rel="noopener noreferrer">VPN for FireTV</a></li>
+                <li><a href="https://appgallery.huawei.com/#/app/C102125657" rel="noopener noreferrer">VPN for Huawei</a></li>
+                <li><a href="https://f-droid.org/en/packages/com.windscribe.vpn/" rel="noopener noreferrer">Windscribe F-Droid</a></li>
+            </ul>
+        </div>
+        <div class="footer-link-cont footer-right">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/privacy">Privacy</a></li>
+                <li><a href="/terms">Terms</a></li>
+                <li><a href="/vdp">VDP</a></li>
+                <li><a href="https://windscribe.com/jobs" target="_blank" rel="noopener noreferrer">Jobs</a></li>
+                <li><a href="https://blog.windscribe.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                <li><a href="https://www.youtube.com/c/Windscribe" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+                <li><a href="https://www.reddit.com/r/Windscribe/" target="_blank" rel="noopener noreferrer">Reddit</a></li>
+                <li><a href="https://twitter.com/windscribe" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://discord.gg/vpn" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                <li><a href="https://t.me/WindscribeHQ" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+            </ul>
+        </div>
+    </div>
+        <div id="footer_logo">
+        <i></i>
+        <span>&copy; 2069 Windscribe Limited</span>
+    </div>
+
+</div><!--footer-->
+<script async src="https://static.windscribe.com/js/plugins.js"></script>
+<!-- Piwik -->
+
+<script>
+    $(document).ready(function(){
+
+        $.ajaxSetup({
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            }
+        });
+
+        if($('#installed_buttons').length == 0){
+
+            $.post('https://res.windscribe.com/res/init'+window.location.search, {
+                'wsref' : document.referrer
+            }, function(res){
+
+                $('.add-buttons').html(res).css('visibility', 'visible');
+
+            });
+
+        }
+
+        $('.language-selector-toggle').click(function(){
+            $('.language-selector').toggleClass('open');
+            return false;
+        });
+
+        $(document).click(function(event) {
+            if(!$(event.target).closest('language-selector').length) {
+                $('.language-selector').removeClass('open');
+            }
+        })
+
+    });
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    // tracker methods like "setCustomDimension" should be called before "trackPageView"
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="https://stats.windscribe.com/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '3']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+
+<!-- Garry -->
+<script defer src="https://garry3-be-prd.windscribe.com/garry.js"></script>
+
+<!-- Sync session cookie to localStorage for Next.js SSG site -->
+<script>
+(function() {
+    var match = document.cookie.match('(?:^|; )ws_session_auth_hash=([^;]*)');
+    try {
+        if (match) {
+            localStorage.setItem('ws_session_auth_hash', decodeURIComponent(match[1]));
+        } else {
+            localStorage.removeItem('ws_session_auth_hash');
+        }
+    } catch(e) {}
+})();
+</script>
+
+<!-- END SITE CONTENT --></body>
+</html>
